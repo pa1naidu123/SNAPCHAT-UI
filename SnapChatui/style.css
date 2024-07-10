@@ -1,0 +1,4617 @@
+* {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (min-width:1400px) and (max-width:2000px) {
+
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 350px;
+        height: 650px;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 300px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 350px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 350px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 350px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 290px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 351px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25vw;
+        margin-top: 20px;
+        height: 30px;
+
+
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+        margin-left: 160px;
+    } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 70vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 80.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        /* position: relative; */
+        /* top: 15px; */
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 60vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 80.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 100.5vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 350px;
+        height: 650px;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 300px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 350px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 350px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 350px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 290px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 351px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25vw;
+        margin-top: 20px;
+        height: 30px;
+
+
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+          margin-left: 160px;
+      } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 70vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 80.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        /* position: relative; */
+        /* top: 15px; */
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 60vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 80.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 100.5vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:850px) and (max-width:1024px) {
+
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 38vw;
+        height: 650px;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 15.5vw;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 32vw;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 38vw;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 38vw;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 38vw;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 31vw;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 38vw;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25vw;
+        margin-top: 20px;
+        height: 30px;
+
+
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+          font-size: 10px;
+      } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 62vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 75.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 44vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 75.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 100.5vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:850px) {
+
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 320px;
+        height: 650px;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 140px;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 250px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 320px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 320px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 320px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 250px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 321px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25vw;
+        margin-top: 20px;
+        height: 30px;
+
+
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+          margin-left: 160px;
+      } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 60vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 77.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 42vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 77.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    #data1 {
+        margin-left: 5%;
+        height: 650px;
+        width: 70.5vw;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (min-width:650px) and (max-width:768px) {
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 150px;
+        height: 650px;
+    }
+
+    .snaplogo {
+        display: none;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 100px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 150px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 150px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 150px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 150px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        display: none;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    .square1 {
+        display: none;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        visibility: hidden;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    /* .square2{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        display: none;
+    }
+
+    .p3 {
+        display: none;
+    }
+
+    /* .square3{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-4 {
+        display: none;
+    }
+
+    .p4 {
+        display: none;
+    }
+
+    /* .square4{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        display: none;
+    }
+
+    .p5 {
+        display: none;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        display: none;
+    }
+
+    .p6 {
+        display: none;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        display: none;
+    }
+
+    .p7 {
+        display: none;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        display: none;
+    }
+
+    .p8 {
+        display: none;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        display: none;
+    }
+
+    .p9 {
+        display: none;
+    }
+
+    /* .square9{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 6vh;
+        width: 6vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30vw;
+        margin-top: 20px;
+        height: 30px;
+
+
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+          margin-left: 160px;
+      } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 60vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 74.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        /* position: relative; */
+        /* top: 15px; */
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 50vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 74.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 100vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:650px) {
+
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 150px;
+        height: 650px;
+    }
+
+    .snaplogo {
+        display: none;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 100px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 150px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 150px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 150px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 90px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 648px;
+        width: 150px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        display: none;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    .square1 {
+        display: none;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        visibility: hidden;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    /* .square2{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        display: none;
+    }
+
+    .p3 {
+        display: none;
+    }
+
+    /* .square3{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-4 {
+        display: none;
+    }
+
+    .p4 {
+        display: none;
+    }
+
+    /* .square4{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        display: none;
+    }
+
+    .p5 {
+        display: none;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        display: none;
+    }
+
+    .p6 {
+        display: none;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        display: none;
+    }
+
+    .p7 {
+        display: none;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        display: none;
+    }
+
+    .p8 {
+        display: none;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 30px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        display: none;
+    }
+
+    .p9 {
+        display: none;
+    }
+
+    /* .square9{
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 300px;
+        margin-top: -23px;
+    } */
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon1 {
+        height: 7vh;
+        width: 7vw;
+        color: gray;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40vw;
+        margin-top: 20px;
+        height: 30px;
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+          margin-left: 160px;
+      } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 70vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 90vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        /* position: relative; */
+        /* top: 15px; */
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 50vw;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 90vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 70vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:360px) and (max-width:425px) {
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 100vw;
+        height: 99.5vh;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 41vw;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 75vw;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 100vw;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 100vw;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 100vw;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 84vw;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 99.5vh;
+        width: 99vw;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 80vw;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 80vw;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 80vw;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 80vw;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 80vw;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        width: 50vw;
+        height: 30px;
+    }
+
+    .icon1 {
+        height: 9vh;
+        width: 9vw;
+        color: gray;
+    }
+
+    .bitmoji-elena {
+        border-radius: 50px;
+    }
+
+    /* .h3{
+        margin-left: 160px;
+    } */
+    .love-ca {
+        color: red;
+    }
+
+    .call {
+        margin-left: 60vw;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .chat {
+        width: 90.5vw;
+        height: 495px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll;
+    }
+
+    .cam {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    #typing {
+        width: 50%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .add {
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    .keyb {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 90.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black;
+    }
+
+    .convo {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .msgs {
+        margin-bottom: 20px;
+    }
+
+    .me1 {
+        color: red;
+    }
+
+    .span1 {
+        color: red;
+    }
+
+    .me2 {
+        color: rgb(0, 140, 215);
+    }
+
+    .span2 {
+        color: rgb(0, 140, 215);
+    }
+
+    iframe {
+        margin-left: 5%;
+        width: 70vw;
+        height: 660px;
+    }
+
+    .main2 {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:360px) {
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 100vw;
+        height: 99.5vh;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 40vw;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 75vw;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 100vw;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 100vw;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 100vw;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 80vw;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 99.5vh;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 290px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 290px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 290px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 290px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 290px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    /* .main{
+        display: flex;
+        flex-direction: row;
+    } */
+    .icon1 {
+        /* height: 6vh;
+      width: 6vw;
+      margin-top: 20px;
+      color: gray; */
+        display: none;
+    }
+
+    .bitmoji-elena {
+        /* border-radius: 50px;
+        margin-left: 10px; */
+        display: none;
+    }
+
+    .h3 {
+        /* margin-left: 160px;
+        margin-top: -40px; */
+        display: none;
+    }
+
+    .love-ca {
+        /* color: red; */
+        display: none;
+    }
+
+    .call {
+        /* margin-left: 750px;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px ; */
+        display: none;
+    }
+
+    .chat {
+        /* width: 74.5vw;
+        height: 559px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll; */
+        display: none;
+    }
+
+    .cam {
+        /* height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black; */
+        display: none;
+    }
+
+    #typing {
+        /* width: 1000px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px; */
+        display: none;
+    }
+
+    .add {
+        /* height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black; */
+        display: none;
+
+    }
+
+    .keyb {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 74.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black; */
+        display: none;
+    }
+
+    .convo {
+        /* margin-left: 10px;
+        margin-top: 20px; */
+        display: none;
+    }
+
+    .msgs {
+        /* margin-bottom: 20px; */
+        display: none;
+    }
+
+    .me1 {
+        /* color: red; */
+        display: none;
+    }
+
+    .span1 {
+        /* color: red; */
+        display: none;
+    }
+
+    .me2 {
+        /* color: rgb(0, 140, 215 ); */
+        display: none;
+    }
+
+    .span2 {
+        /* color:rgb(0, 140, 215 ) ; */
+        display: none;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:300px) {
+    .profile {
+        border-radius: 50px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    aside {
+        border: 2px solid grey;
+        width: 100%;
+        height: 99.5vh;
+    }
+
+    .snaplogo {
+        position: absolute;
+        left: 130px;
+        top: 15px;
+    }
+
+    .chaticon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 240px;
+        top: 14px;
+    }
+
+    hr {
+        position: absolute;
+        top: 70px;
+        width: 300px;
+    }
+
+    .hr1 {
+        position: absolute;
+        top: 140px;
+        width: 300px;
+    }
+
+    .color {
+        background-color: white;
+        position: absolute;
+        height: 140px;
+        width: 300px;
+        z-index: 2;
+    }
+
+    #search {
+        position: absolute;
+        width: 240px;
+        height: 30px;
+        top: 90px;
+        left: 25px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .scroll {
+        margin-top: 7px;
+        height: 99.5vh;
+        width: 300px;
+        overflow-y: scroll;
+    }
+
+    .bitmoji1 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love1 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit1 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+        margin-top: 130px;
+
+    }
+
+    .h4-1 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p1 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square1 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 260px;
+        margin-top: -23px;
+    }
+
+    .bitmoji2 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit2 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-2 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p2 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 260px;
+        margin-top: -23px;
+    }
+
+    .bitmoji3 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit3 {
+        border: 1px solid gray;
+        /* border-radius: 10px 10px 10px 10px; */
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-3 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p3 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square3 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(162, 0, 227);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 260px;
+        margin-top: -23px;
+    }
+
+    .bitmoji4 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love4 {
+        color: rgb(255, 0, 200);
+        margin-left: -20px;
+    }
+
+
+    .bit4 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p4 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square4 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 260px;
+        margin-top: -23px;
+    }
+
+    .bitmoji5 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit5 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-5 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p5 {
+        color: red;
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji6 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit6 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+
+    }
+
+    .h4-6 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p6 {
+        color: rgb(162, 0, 227);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji7 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .bit7 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-7 {
+        margin-top: -50px;
+        margin-left: 80px;
+        visibility: visible;
+    }
+
+    .p7 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.9;
+    }
+
+    .bitmoji8 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love8 {
+        color: rgb(255, 0, 0);
+    }
+
+    .bit8 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+    }
+
+    .h4-8 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p8 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        margin-top: 7px;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    .bitmoji9 {
+        border-radius: 50px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        margin-left: 10px;
+    }
+
+    .love9 {
+        color: red;
+        margin-left: -20px;
+    }
+
+    .bit9 {
+        border: 1px solid gray;
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .h4-9 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .p9 {
+        color: rgb(0, 140, 215);
+        margin-left: 80px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .square9 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(0, 140, 215);
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 260px;
+        margin-top: -23px;
+    }
+
+    .bit1:hover,
+    .bit2:hover,
+    .bit3:hover,
+    .bit4:hover,
+    .bit5:hover,
+    .bit6:hover,
+    .bit7:hover,
+    .bit8:hover,
+    .bit9:hover {
+        background-color: rgb(228, 227, 227);
+    }
+
+    /* .main{
+        display: flex;
+        flex-direction: row;
+    } */
+    .icon1 {
+        /* height: 6vh;
+      width: 6vw;
+      margin-top: 20px;
+      color: gray; */
+        display: none;
+    }
+
+    .bitmoji-elena {
+        /* border-radius: 50px;
+        margin-left: 10px; */
+        display: none;
+    }
+
+    .h3 {
+        /* margin-left: 160px;
+        margin-top: -40px; */
+        display: none;
+    }
+
+    .love-ca {
+        /* color: red; */
+        display: none;
+    }
+
+    .call {
+        /* margin-left: 750px;
+        margin-top: -40px;
+        width: 130px;
+        height: 40px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px ; */
+        display: none;
+    }
+
+    .chat {
+        /* width: 74.5vw;
+        height: 559px;
+        border: 2px solid gray;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px 10px 0px 0px;
+        overflow-y: scroll; */
+        display: none;
+    }
+
+    .cam {
+        /* height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black; */
+        display: none;
+    }
+
+    #typing {
+        /* width: 1000px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px; */
+        display: none;
+    }
+
+    .add {
+        /* height: 30px;
+        width: 30px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black; */
+        display: none;
+
+    }
+
+    .keyb {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-color: lightgray;
+        height: 80px;
+        width: 74.5vw;
+        margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid black; */
+        display: none;
+    }
+
+    .convo {
+        /* margin-left: 10px;
+        margin-top: 20px; */
+        display: none;
+    }
+
+    .msgs {
+        /* margin-bottom: 20px; */
+        display: none;
+    }
+
+    .me1 {
+        /* color: red; */
+        display: none;
+    }
+
+    .span1 {
+        /* color: red; */
+        display: none;
+    }
+
+    .me2 {
+        /* color: rgb(0, 140, 215 ); */
+        display: none;
+    }
+
+    .span2 {
+        /* color:rgb(0, 140, 215 ) ; */
+        display: none;
+    }
+}
